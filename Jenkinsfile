@@ -1,10 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh '''./jenkins/build.sh
-'''
+        sh '''
+
+
+echo
+
+I am $test'''
       }
     }
 
